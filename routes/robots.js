@@ -3,7 +3,6 @@ var redis = require('redis');
 var redisClient = redis.createClient();
 var router = express.Router();
 
-
 /* GET robot listings. */
 router.get('/', function(req, res, next) {
   console.log("robots get router here");
